@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-height">
+        <div class="container-fluid">
+            
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="logos/future-logo-white.png" alt="future logo" class="navbar-height">
+            </a>
+            
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links and icons -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+            
+            <!-- Menu links -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="home page.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tourpage.html">TOUR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html">MUSIC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="store.html">STORE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/@officialfuturevideos/videos">VIDEOS</a>
+                </li>
+            </ul>
+            
+            <!-- Social icons -->
+            <div class="d-flex align-items-center gap-2">
+                <a href="https://www.facebook.com/FutureOfficial/">
+                    <img src="logos/1facebook.png" alt="facebook" height="24">
+                </a>
+                <a href="https://www.instagram.com/future/?hl=en">
+                    <img src="logos/2instagram.png" alt="instagram" height="24">
+                </a>
+                <a href="https://x.com/1future">
+                    <img src="logos/3twitter.png" alt="twitter" height="24">
+                </a>
+                <a href="https://www.tiktok.com/@plutoouttahere?lang=en">
+                    <img src="logos/4tiktok.png" alt="tiktok" height="24">
+                </a>
+                <a href="https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i">
+                    <img src="logos/5spotify.png" alt="spotify" height="24">
+                </a>
+                <a href="https://music.apple.com/us/artist/future/128050210">
+                    <img src="logos/6apple-music.png" alt="apple music" height="24">
+                </a>
+                <!-- Trigger Button -->
+                <button type="button" class="emaillogo btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="logos/7email.png" alt="email" height="24">
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>      
+
+<!-- Modal -->
+<div class="email modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-4" style="border-radius: 0; max-width: 400px; margin: auto;">
+            <div class="d-flex justify-content-end">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <!-- Logo -->
+            <div class="text-center">
+                <img src="logos/future-logo-black.png" alt="Future Logo" style="max-height: 200px;" class="mb-3">
+                <p class="fw-semibold border-bottom pb-2 mb-3">Get The Latest Tour News And Updates</p>
+            </div>
+            
+            <!-- Form -->
+            <form>
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label fw-bold">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Enter Username">
+                </div>
+                
+                <!-- Country -->
+                <div class="mb-4">
+                    <label for="countrySelect" class="form-label fw-bold">Country</label>
+                    <select class="form-select" id="countrySelect">
+                        <option selected disabled>Select....</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Canada</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                
+                <!-- Submit -->
+                <div class="d-grid mb-3">
+                    <button type="submit" class="btn btn-dark">Register</button>
+                </div>
+                <p class="text-center small">
+                    By submitting this form and signing up for texts, you consent to receive marketing text messages (e.g. promos, cart reminders) from Future Official Store at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply.
+                </p>
+            </form>
+        </div>
+    </div>
+</div> 
+
+
+<!-- Home Page -->
+
+<div class="container py-4 text-center">
+    
+    <!-- Header -->
+    <div class="store-header text-center">Store</div>
+    
+    <!-- Cart Logo -->
+    <a href="cart.html">
+        <div class="CartLogo">
+            <img src="logos/bag.png" alt="CartLogo" class="CartLogo-img">
+        </div>
+    </a>
+    
+    <!-- Vinyl Section -->
+    <h2 class="section-title text-center">Vinyl Record</h2>
+    
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+        
+        <!-- Section 1 -->
+        <div class="col text-center">
+            <a href="example item.html">
+                <img src="vinyls/1mixtape pluto.png" alt="MIXTAPE PLUTO" class="vinyl-img"></a>
+                <div class="vinyl-title">MIXTAPE PLUTO</div>
+                <div class="price">60 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/2we still dont trust you.png" alt="WE STILL DON'T TRUST YOU" class="vinyl-img">
+                <div class="vinyl-title">WE STILL DON'T TRUST YOU</div>
+                <div class="price">50 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/3we dont trust.png" alt="WE DON'T TRUST YOU" class="vinyl-img">
+                <div class="vinyl-title">WE DON'T TRUST YOU</div>
+                <div class="price">45 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/4.png" alt="WE STILL DON'T TRUST YOU" class="vinyl-img">
+                <div class="vinyl-title">I NEVER LIKED YOU</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <!-- Section 2 -->
+            <div class="col text-center">
+                <img src="vinyls/5high off life.png" alt="HIGH OFF LIFE" class="vinyl-img">
+                <div class="vinyl-title">HIGH OFF LIFE</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/6 Hndrxx- The Wizrd.png" alt="HNDRXX: THE WIZRD" class="vinyl-img">
+                <div class="vinyl-title">HNDRXX: THE WIZRD</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/7 super slimpy.png" alt="SUPER SLIMPY" class="vinyl-img">
+                <div class="vinyl-title">SUPER SLIMPY</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/8 hndrxx.png" alt="HNDRXX" class="vinyl-img">
+                <div class="vinyl-title">HNDRXX</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <!-- Section 3 -->
+            <div class="col text-center">
+                <img src="vinyls/9 future.png" alt="FUTURE" class="vinyl-img">
+                <div class="vinyl-title">FUTURE</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/10 evol.png" alt="EVOL" class="vinyl-img">
+                <div class="vinyl-title">EVOL</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/11 purple reign.png" alt="PURPLE REIGN" class="vinyl-img">
+                <div class="vinyl-title">PURPLE REIGN</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/12 what a time to be alive.png" alt="WHAT A TIME TO BE ALIVE" class="vinyl-img">
+                <div class="vinyl-title">WHAT A TIME TO BE ALIVE</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <!-- Section 4 -->
+            <div class="col text-center">
+                <img src="vinyls/13 ds2.png" alt="DS2" class="vinyl-img">
+                <div class="vinyl-title">DS2</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/14 56 nights.png" alt="56 NIGHTS" class="vinyl-img">
+                <div class="vinyl-title">56 NIGHTS</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/15 monster.png" alt="MONSTER" class="vinyl-img">
+                <div class="vinyl-title">MONSTER</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            <div class="col text-center">
+                <img src="vinyls/16 honest.png" alt="HONEST" class="vinyl-img">
+                <div class="vinyl-title">HONEST</div>
+                <div class="price">35 Euros</div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <!-- Clothing Merch -->
+    <h2 class="merch section-title mt-5">Clothing Merch</h2>
+    <div class="text-center">
+        <img src="home page/new merch.jpeg" alt="Coming Soon" class="merch-img">
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+</body>
+</html>
