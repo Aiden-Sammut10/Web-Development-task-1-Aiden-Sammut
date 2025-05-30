@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example iteam</title>
+    <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
-    <link rel="stylesheet" href="example item.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     
@@ -21,7 +21,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
             aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
+        </button>
         
         <!-- Navbar links and icons -->
         <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
@@ -29,7 +29,7 @@
             <!-- Menu links -->
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link active" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tourpage.html">TOUR</a>
@@ -38,7 +38,7 @@
                     <a class="nav-link" href="music.html">MUSIC</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="store.html">STORE</a>
+                    <a class="nav-link" href="store.html">STORE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.youtube.com/@officialfuturevideos/videos">VIDEOS</a>
@@ -65,6 +65,7 @@
                 <a href="https://music.apple.com/us/artist/future/128050210">
                     <img src="logos/6apple-music.png" alt="apple music" height="24">
                 </a>
+                
                 <!-- Trigger Button -->
                 <button type="button" class="emaillogo btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img src="logos/7email.png" alt="email" height="24">
@@ -117,52 +118,70 @@
             </form>
         </div>
     </div>
-</div>     
+</div> 
 
 
 
-<!-- Home Page -->
 
-<body class="bg-black text-white text-center">
-    
-    <div class="container py-5 text-center">
-        <div class="row justify-content-center text-center">
+
+<!-- Background -->
+
+<!-- MIXTAPE PLUTO SECTION Home -->
+<section class="mixtape-section text-white py-5">
+    <div class="container">
+        <div class="row">
             
-            <div class=" imageex col-md-5 text-center mb-4">
-                <img src="vinyls/1mixtape pluto.png" alt="Mixtape Pluto Cover" class="img-fluid rounded" />
+            <!-- Left Column: Image -->
+            <div class="background col-lg-6 text-center mb-4 mb-lg-0">
+                <img src="home page/future small .jpg" class="img-fluid" >
             </div>
-
-<!-- Text -->
-            <div class="col-md-6 text-center">
-                <h2>MIXTAPE PLUTO</h2>
-                <p class="fs-5">Regular Price<br>€40</p>
-                <p class="text-uppercase small">MIXTAPE PLUTO BLACK VINYL IS IN STOCK AND SHIPS WITHIN 3–5 BUSINESS DAYS
-                    Black Vinyl Disc</p>
-                <p class="mb-2">Black Vinyl Disc</p>
-
-<!-- Text -->
-                <ol class="ps-3 text-center">
-                    <li>1. Teflon Don</li>
-                    <li>2. Lil Demon</li>
-                    <li>3. Ski</li>
-                    <li>4. Ready To Cook Up</li>
-                    <li>5. Plutoski</li>
-                    <li>6. Too Fast</li>
-                    <li>7. Ocean</li>
-                    <li>8. Press The Button</li>
-                    <li>9. MJ</li>
-                    <li>10. Brazzier</li>
-                    <li>11. South of France</li>
-                </ol>
-
-                <!-- Add to cart button -->
-                <a href="cart.html">
-                    <button class="btn btn-outline-light mt-4 w-100 text-center">Add To Cart</button>
-                </a>
+            
+            <!-- Right Column: Text and Button -->
+            <div class="logo col-lg-6 text-center">
+                <img src="home page/mixtaple pulot logo.png" alt="Mixtape Pluto" 
+                class="img-fluid mixtape-title" style="max-width: 800px;">
+                
+                <!-- text  -->
+                <p class="homepagetext">
+                    The wait is over. Future’s latest album has officially dropped — a powerful blend of moody trap beats, hypnotic flows, and raw storytelling that pushes hip-hop into a new era. From reflective anthems to bass-heavy bangers, this album delivers every emotion and moment with unmatched energy.
+                </p>
+                
+                <!-- text button -->
+                <a href="https://open.spotify.com/album/4Zoxsc06EUHRf5GrJPJZ54" 
+                class="buttonbox btn btn-outline-light btn-lg mt-3 px-5 text-center"
+                target="_blank" rel="noopener noreferrer">
+                Listen Here
+            </a>           
             </div>
         </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
-</body>
-</html>
+        
+        
+        <!-- PART 2 - ABOUT SECTION -->
+        <section class="part2 about-section container-fluid px-0">
+            <div class="row align-items-center g-0">
+                
+        <!-- Left Column: Text -->
+                <div class="col-lg-6 text-black text-center text-lg-start p-5">
+                    <h1 class="about-title fw-bold text-black text-center text-lg-start">
+                        <u>About</u>
+                    </h1>
+                    <p class="about-description fw-semibold text-black text-center">
+                        Future (real name Nayvadius DeMun Wilburn) is a Grammy-winning rapper, singer, and songwriter from Atlanta, Georgia.
+                        Known for his signature Auto-Tuned style and trap-heavy beats, he’s shaped modern hip-hop with hits like
+                        "Mask Off", "Life Is Good", and "March Madness." Future’s music blends raw emotion with street narratives,
+                        making him one of the most influential voices of his generation.
+                    </p>
+                </div>
+                
+        <!-- Right Column: Image -->
+                <div class="col-lg-6 text-center">
+                    <img src="home page/futuree.jpg" alt="Future image" class="img-fluid">
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+    </body>
+    </html>
